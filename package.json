@@ -1,0 +1,23 @@
+{
+  "name": "telegram-freeze-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that deletes all messages that are sent to a channel where this bot has the right to delete messages.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitdegree/telegram-freeze-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitdegree/telegram-freeze-bot/issues"
+  },
+  "homepage": "https://github.com/bitdegree/telegram-freeze-bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
