@@ -26,7 +26,6 @@ In production you may want to use a process manager. Example with PM2:
 
 ```
 pm2 start bot.js --name=telegram-bot
-
 ```
 
 If you change the configuration you must restart the bot for the changes to take effect. For example, with PM2 you would do something like:
